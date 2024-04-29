@@ -1,11 +1,102 @@
-
 <!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
     <meta charset="UTF-8">
-    <title>高考志愿参考——广东理科 By Ye1Ye</title>
-    <h1>广东理科</h1>
-    <h1>广东文科</h1>
+    <title>高考志愿参考 By Ye1Ye</title>
+    <br>
+    <button id="toggle-darkmode">切换深色模式</button>
 
-</body> 
+<body>
+    <h1>高考志愿参考 By Ye1Ye</h1>
+    <h2>这里是一个高考志愿参考工具，免费！开源！仅供参考！</h2>
+    <br>
+    <h2>两种方式：</h2>
+    <br>
+    <h1>1.网页</h1>
+    <h2>搜索排序，筛选出适合自己分数排名的学校专业，添加到对比框进行参考</h2>
+    <h1><a href="https://gaokaoscore.github.io/guangdongli/">广东理科</a></h1>
+    
+    <h1><a href="https://gaokaoscore.github.io/guangdongwen/">广东文科</a></h1>
+   
+
+    <style>
+        .dark-mode {
+            background-color: #121212;
+            color: #f9981c;
+        }
+    </style>
+        <h1>2.在线表格</h1>
+        <h2>不适合网页，可以直接用在线表格。</h2>
+        <h1><a href="https://docs.qq.com/sheet/DWURXT0tYSmhWc0lF?u=cd94289e56a546928750ecc6227c780b&tab=spg825">广东理科</a></h1>
+        <h1><a href="https://docs.qq.com/sheet/DWXNRR1BVT1hxS0Ru?u=cd94289e56a546928750ecc6227c780b&tab=51talq">广东文科</a></h1>
+        <br></body>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1>希望帮到你！</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <h1>做这个的原因</h1>
+        <h2>本来是给我表弟做的，他今年（2024年）高考。
+
+            但反正都做了，索性多做一点，别人用得上也行。
+
+            当然，这个网站项目从头到脚都十分粗鄙，有很多不足。
+
+            现在，信息爆炸，顾名思义很难，<b>饭</b>店里大部分都是<b>菜<b>，<b>酒</b>店里都是床，微信一点不<small> 微</small>，占的空间大得要手机的<del>命</del>存储，因为它的洋文名字是WeChat，不是SamllChat，我看是<del>死*(消音)</del>Chat。
+            学校和专业也是，光看名字无法得到有效信息，网络风评和人们的口耳相传为志愿填报提供了海量的信息，许多评价和观点是有效信息，但另一方面，其中也包含太多的噪声。
+
+            不仅如此，现在的志愿填报，要填太多数量的志愿，平行志愿多达几十甚至上百个，那么落在考虑范围内的志愿就更多了。 混沌的参考信息和繁重的填报任务给同学们带来巨大的负担。
+        </h2>
+        <h2>其中一个主要的痛点是同学每天用功或不用功读书，变麻木迷茫，对即将到来的大学和专业的选择毫无概念，根本不知道有许多的选择，超多的拜托！也更不知道自己能填的有哪些。
+
+            因此我这里提供了一个从分数和排名出发的高考志愿参考工具，分数和排名是同学最熟悉的事情，不需要额外的阅历和经验的堆积，从这里出发是比较轻松而便捷的。
+            当然，我的数据不是很全。仅仅只是给一个参考，在知晓自己的分数和省内排名后，让同学形成基本的选择范围。
+        </h2>
+        <h2>真正到了志愿填报的时候，还是需要通过这些概念的形成和逐步深化，理解志愿填报规则，查阅官方的志愿书，认真详细地对比，通过多方的信息渠道，比如去官网和论坛，找学长学姐校友同学等，了解你感兴趣的学校和专业，形成合理的认知，填报出对自己负责任的志愿。</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+            <h1>关于网页</h1>
+            <h2>我乱做的!!!
+
+                <h2>网页主要是使用github的Page功能，使用AI编写的html文件，其中包含了JavaScript脚本来实现筛选查询等功能，CSS的样式设计是随便弄的。我没有读过计算机专业，我不知道这样的项目是有什么用。如果你需要，可以在github上fork或者下载<a href="https://github.com/GaoKaoScore/GaoKaoScore">这个项目</a>，如果有用，你甚至可以点star。
+                    
+                    </h2>
+            <br>
+            <br>
+            <br>
+            <br>
+                <h1>关于数据来源</h1>
+                <h2>我随便找的!!</h2>
+                <h2>数据都是我自己用AI辅助写的脚本从互联网上提取的，肯定会有错误，如果错了建议你狠狠地<del>开骂</del><sup>谅解</一下。</h2>
+
+                <h1>如果有足够的支持，这个项目<del>一定</del>有机会<del>或许</del>会做得很漂亮！</h1>
+
+                <body>
+
+                    <script>
+
+                        function toggleDarkMode() {
+                            var body = document.body;
+                            body.classList.toggle('dark-mode');
+                        }
+
+                        // 深色模式切换按钮事件
+                        document.getElementById('toggle-darkmode').addEventListener('click', toggleDarkMode);
+                    </script>
+                </body>
+
 </html>
